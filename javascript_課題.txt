@@ -1,0 +1,21 @@
+ 選択問題
+① $(document).ready(function(){ ~ });
+	A: HTMLとDOMを読み込んでから、function（関数）の処理を開始する処理。
+
+② $(‘#btn-evaluation’).click(function() { ~ });
+	F: id=btn-evaluationのボタンをクリックすることでfunction（関数）の処理を開始する処理。
+
+③ $(‘#national_language, #english, #mathematics, #science, #society’).change(function() { ~ });
+	F: 各教科の点数が変わることでfunction（関数）の処理を開始する処理。
+
+④ $(‘#national_language’).val()
+	A: id=national_languageフォームに入力されたvalue値の取得。
+
+⑤ Number()
+	F: 文字列（教科の点数）を数値に置換。
+
+⑥ $(“#sum_indicate”).text(sum);
+	B: id=sum_indicateの箇所にsum（教科の合計点）を出力。
+
+⑦ .append
+	F: id=declarationをクリックしたら次の要素が発火する。
